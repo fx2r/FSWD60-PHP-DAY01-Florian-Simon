@@ -5,9 +5,11 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<?php
-		$myName = 'FlorianSimon';
-		echo $myName;
-		?>
+		<section class="container">
+			<?php
+			$myName = 'FlorianSimon';
+			echo $myName;
+			?>
+		</section>
 	</body>
 </html>
