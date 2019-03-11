@@ -8,7 +8,7 @@
 	<body>
 		<h1>Fruit Chaos!</h1>
 		<?php
-			//numerical array with for loop
+			//numerical array with foreach loop
 			$fruits = array( 'Apple', "Banana", "Mango", "Pineapple", "Cherry", "Tomato", "Kiwi", "Grapefruit", "Orange", "Grape", "Berries");
 			foreach( $fruits as $value )
 			{
@@ -16,7 +16,7 @@
 			}
 		?>
 		<h1>Fruit Chaos!</h1>
-		
+
 		</body>
 </html>
 
