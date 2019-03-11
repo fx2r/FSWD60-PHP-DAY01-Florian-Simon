@@ -8,12 +8,15 @@
 	<body>
 		<h1>Fruit Chaos!</h1>
 		<?php
-			$fruits = array( "Apple", "Banana", "Mango", "Pineapple", "Cherry", "Tomato", "Kiwi", "Grapefruit", "Orange", "Grape", "Berries");
+			//numerical array with for loop
+			$fruits = array( 'Apple', "Banana", "Mango", "Pineapple", "Cherry", "Tomato", "Kiwi", "Grapefruit", "Orange", "Grape", "Berries");
 			foreach( $fruits as $value )
 			{
 			echo "The fruit is: $value <br />";
 			}
 		?>
+		<h1>Fruit Chaos!</h1>
+		
 		</body>
 </html>
 
