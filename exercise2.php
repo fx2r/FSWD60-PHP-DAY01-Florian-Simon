@@ -7,8 +7,11 @@
 	<body>
 		<section class="container">
 			<?php
-			$myName = 'FlorianSimon';
-			echo "$myName";
+			$d = "Mon";
+			if ($d=="Mon")
+				echo "Happy Monday!";
+			else
+				echo "Have a wonderfull day!";
 			?>
 		</section>
 	</body>
