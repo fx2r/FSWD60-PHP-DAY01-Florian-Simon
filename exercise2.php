@@ -7,7 +7,7 @@
 	<body>
 		<section class="container">
 			<?php
-			$d = "Mon";
+			$d = date("D");
 			if ($d=="Mon")
 				echo "Happy Monday!";
 			else
